@@ -36,6 +36,31 @@ filetype plugin indent on     " required!
 " see :h vundle for more details or wiki for FAQ
 " NOTE: comments after Bundle commands are not allowed.
 
+command! W w
+command! Q q
+
+set noerrorbells " No sounds
+set novisualbell " No sounds
+set t_vb=
+
+let mapleaser = ","
+let g:mapleader = ","
+
+imap jj <ESC>
+inoremap <ESC> <ESC>`^
+nnoremap ; :
+
+" Move vertical on wrapped lines
+nnoremap j gj
+nnoremap k gk
+
+set pastetoggle=<F12>
+
+noremap <up> <nop> " Disable arrow buttons in normal mode
+noremap <down> <nop>
+noremap <left> <nop>
+noremap <right> <nop>
+
 autocmd! bufwritepost .vimrc source % " Reload vimrc if changed
 autocmd BufWritePre * :%s/\s\+$//e " Remove trailing whitespace
 autocmd BufEnter * silent! lcd %:p:h " Change working directory to file viewed
