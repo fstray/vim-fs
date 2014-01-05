@@ -11,16 +11,24 @@ Bundle 'gmarik/vundle'
 " My bundles here:
 "
 " original repos on GitHub
-"Bundle 'tpope/vim-fugitive'
-"Bundle 'Lokaltog/vim-easymotion'
-"Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
+Bundle 'tpope/vim-fugitive'
+Bundle 'Lokaltog/vim-easymotion'
+Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 Bundle 'tpope/vim-rails.git'
 Bundle 'tpope/vim-bundler.git'
+Bundle 'tpope/vim-surround.git'
+Bundle 'garbas/vim-snipmate.git'
+Bundle 'scrooloose/nerdtree.git'
+Bundle 'jasoncodes/ctrlp-modified.vim.git'
+Bundle 'dantler/vim-alternate.git'
+Bundle 'tomtom/tlib_vim.git'
+Bundle 'MarcWeber/vim-addon-mw-utils.git'
+Bundle 'corntrace/bufexplorer.git'
 " vim-scripts repos
-"Bundle 'L9'
-"Bundle 'FuzzyFinder'
+" Bundle 'L9'
+" Bundle 'FuzzyFinder'
 " non-GitHub repos
-"Bundle 'git://git.wincent.com/command-t.git'
+" Bundle 'git://git.wincent.com/command-t.git'
 " Git repos on your local machine (i.e. when working on your own plugin)
 " Bundle 'file:///Users/gmarik/path/to/plugin'
 " ...
